@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31f555e0ff.js" crossorigin="anonymous"></script>
+    <style>
+        ul.no-bullets {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        </style>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+              </label>
+              <input type="checkbox" name="check" id="check" />
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>  
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Python developer</p>
+            <h1>Hi,I'm <span>Rojalin</span>Chand</h1>
+        </div>
+    </div>
+</div>  
+<!------------------about------------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/me.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="text-align: justify;" >I am a dedicated and skilled programmer with expertise in Python, Java, and web development technologies. Passionate about leveraging technology to solve real-world problems, I have a strong foundation in computer science and a commitment to continuous learning. With a Master's degree in Computer Application and hands-on experience in various projects, I am eager to contribute my skills to impactful endeavors.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul class="no-bullets">
+                        <li><span>Python</span><br>Versatile, utilized in projects</li>
+                        <li><span>Web development</span><br>HTML/CSS/JS, frontend/backend expertise</li>
+                        <li><span>Machine Learning</span><br>Algorithms, predictive modeling projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul class="no-bullets">
+                        <li><span>Oct/2022-Dec/2022</span><br>Fullstack Java Intern<br>
+                            Contributed to Online Art Gallery<br>
+                            Gained MEAN stack proficiency
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul class="no-bullets">
+                        <li><span>2021-2023</span><br>MCA from Atria institute of technology,Bangalore</li>
+                        <li><span>2018-2021</span><br>BCA from Vikash group of institutions,Bhawanipatna</li>
+                        <li><span>2016-2018</span><br>12th from Pragati +2 science college,Bhawanipatna</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!------------------Projects------------------>
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="work">
+                <img src="Images/Clinic 1.jpg">
+                <div class="layer">
+                    <h3>Clinical Support System</h3>
+                    <p>It assist healthcare professionals or patients in making informed decisions about which medications or drugs to prescribe or use for a specific medical condition</p>
+                    <a href="https://github.com/Chandroja/Clinical-support-system"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Touchless 1.jpg">
+                <div class="layer">
+                    <h3>Touchless Doorbell</h3>
+                    <p>Using an IR sensor, detect the presence of an object or person in front of a door without physical contact</p>
+                    <a href="https://github.com/Chandroja/Ir-proximity-sensor-Touchless-doorbell"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="Images/Hous.jpg">
+                <div class="layer">
+                    <h3>House Price Prediction</h3>
+                    <p>House price predictions are expected to help people who plan to buy a house so they can know the price range in the future</p>
+                    <a href="https://github.com/Chandroja/House-price-prediction"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="Images/Crime 1.jpg">
+                <div class="layer">
+                    <h3>Crime Reporting System</h3>
+                    <p>It helps all the police stations across the country and specifically looks into the subject of crime records management</p>
+                    <a href="https://github.com/Chandroja/Crime_Repoting-system"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Voice ass 1.jpg">
+                <div class="layer">
+                    <h3>Voice assistant</h3>
+                    <p>It is an application that understands voice commands and completes tasks for the user</p>
+                    <a href="https://github.com/Chandroja/Virtual-_voice-assistant"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <a href="https://github.com/Chandroja?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+<!--------------Contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>rojachand01@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6372615154</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/ChandRojalin"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/rojalinchand/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rojalinchand01/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Chandroja"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/Roja_Resume.pdf" download class="btn btn2">Download CV</a>  
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your EMail" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Roja</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>  
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw9vAB7_OM14nKynYcRI2K6pysLOXiLVFcKmbHVFcSGRQ6VqRtJWTOx2NtrWQmLfxXbfA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
